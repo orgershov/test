@@ -249,8 +249,6 @@ public class game {
                 gameMaster.printMaze(mazeGrid);
 
                 isMoved = false;
-
-
                 player = 1;
 
             }
