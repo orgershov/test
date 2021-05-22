@@ -37,7 +37,8 @@ public class gameMaster {
             possibleMove=true;
         }
         else if(move==1&&pos[0][0]!="ok"){
-            System.out.println("can't do it");
+            System.out.println("can't do it make valid move");
+            possibleMove=false;
         }
         //move left
         if(move==2&&pos[1][0]=="ok"){
@@ -57,7 +58,8 @@ public class gameMaster {
             possibleMove=true;
         }
         else if(move==2&&pos[1][0]!="ok"){
-            System.out.println("can't do it");
+            System.out.println("can't do it make valid move");
+            possibleMove=false;
         }
         //move down
         if(move==3&&pos[0][1]=="ok"){
@@ -77,7 +79,8 @@ public class gameMaster {
             possibleMove=true;
         }
         else if(move==3&&pos[0][1]!="ok"){
-            System.out.println("can't do it");
+            System.out.println("can't do it make valid move");
+            possibleMove=false;
         }
         //move right
         if(move==4&&pos[1][1]=="ok"){
@@ -97,7 +100,8 @@ public class gameMaster {
             possibleMove=true;
         }
         else if(move==4&&pos[1][1]!="ok"){
-            System.out.println("can't do it");
+            System.out.println("can't do it make valid move");
+            possibleMove=false;
         }
       return possibleMove;
 
